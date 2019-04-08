@@ -1,5 +1,12 @@
 <?php 
 // DB credentials.
+
+$DB_HOST = getenv('localhost');
+$DB_USER = getenv('root');
+$DB_PASS = getenv('');
+$DB_NAME = getenv('bbdms');
+
+
 define('DB_HOST','localhost');
 define('DB_USER','root');
 define('DB_PASS','');
