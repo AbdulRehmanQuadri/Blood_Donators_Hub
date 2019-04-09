@@ -1,7 +1,8 @@
 <?php 
 // DB credentials.
 
-$DB_HOST = getenv('db_host');
+$DB_HOST = getenv('MYSQL_SERVICE_HOST');
+$DB_PORT = getenv("MYSQL_SERVICE_PORT");
 $DB_USER = getenv('db_user');
 $DB_PASS = getenv('db_passwd');
 $DB_NAME = getenv('db_name');
